@@ -1,0 +1,784 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home {
+    position: relative;
+    padding: 0;
+    display: block;
+    background-image: url('./image/pexels-mark-mccammon-1080721.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+position: absolute;
+right: 20px;
+width: 40%;
+height: 62px;
+top: 20px;
+background: #F5F5F5;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.img-home{
+position: absolute;
+width: 15%;
+left: 9px;
+top: -55px;
+
+}
+pre{
+    position: absolute;
+
+left: -70px;
+top: 315px;
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+
+color: #000000;
+}
+.img-home2{
+    position: absolute;
+width: 1520px;
+height: 634px;
+left: 0px;
+top: 0px;
+z-index: -1;
+}
+
+.tit{
+    position: relative;
+width: 558px;
+height: 299px;
+left: 625px;
+top: 118px;
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 95px;
+color: #000000;
+}
+
+input[type=text] {
+    position: absolute;
+    width: 50%;
+    left: 340px;
+    top: 941 px;
+    box-sizing: border-box;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 35px;
+    font-size: 16px;
+    font-family: 'Prata';
+    font-style: normal;
+    background-color: white;
+    background: url(./image/téléchargement__1_-removebg-preview.png);
+    background-size: 3%;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+   margin:auto;
+   display:block;
+
+   
+  }
+  .room{
+    position: absolute;
+width: 492px;
+height: 342px;
+left: 161px;
+top: 1102px;
+border-radius: 25px;
+display: flex;
+flex-wrap: wrap;
+  }
+  .square1{
+    position: absolute;
+width: 369px;
+height: 78px;
+left: 243px;
+top: 1218px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 30px;
+  }
+  .hr{
+    position: absolute;
+width: 278px;
+height: 71px;
+left: 288px;
+top: 1233px;
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+
+
+color: #000000;
+  }
+  .cui{
+    position: absolute;
+width: 492px;
+height: 342px;
+left: 777px;
+top: 1102px;
+border-radius: 25px;
+display: flex;
+flex-wrap: wrap;
+  }
+  .square2{
+    position: absolute;
+width: 369px;
+height: 78px;
+left: 838px;
+top: 1226px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 30px;
+  }
+  h2{
+    position: absolute;
+width: 278px;
+height: 71px;
+left: 878px;
+top: 1241px;
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+
+color: #000000;
+
+
+
+  }
+  .salon{
+    position: absolute;
+width: 1092px;
+height: 580px;
+left: 156px;
+top: 1686px;
+border-radius: 25px;
+display: flex;
+flex-wrap: wrap;
+  }
+  .square3{
+    position: absolute;
+width: 369px;
+height: 68.45px;
+left: 485px;
+top: 1914px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 30px;
+  }
+  .hs{
+    position: absolute;
+width: 278px;
+height: 62.31px;
+left: 530px;
+top: 1937.69px;
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+
+
+color: #000000;
+  }
+  .bath{
+    position: absolute;
+width: 492px;
+height: 342px;
+left: 156px;
+top: 2544px;
+border-radius: 25px;
+display: flex;
+flex-wrap: wrap;
+  }
+  .square4{
+    position: absolute;
+    width: 369px;
+    height: 78px;
+    left: 230px;
+    top: 2654px;
+    
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 30px;
+  }
+  .hba{
+    position: absolute;
+width: 278px;
+height: 71px;
+left: 275px;
+top: 2669px;
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+
+color: #000000;
+  }
+  .bib{
+    position: absolute;
+width: 492px;
+height: 342px;
+left: 378px;
+top: 1272px;
+border-radius: 25px;
+display: flex;
+flex-wrap: wrap;
+  }
+  .square5{
+    position: absolute;
+width: 369px;
+height: 78px;
+left: 442px;
+top: 1389px;
+
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 30px;
+
+  }
+  .hbi{
+    position: absolute;
+width: 278px;
+height: 71px;
+left: 471px;
+top: 1413px;
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+
+
+color: #000000;
+
+
+  }
+  .child{
+    position: absolute;
+    width: 492px;
+    height: 342px;
+    left: 156px;
+    top: 3032px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square6{
+    position: absolute;
+width: 369px;
+height: 78px;
+left: 218px;
+top: 3146px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 30px;
+
+}
+.hch{
+    position: absolute;
+width: 278px;
+height: 71px;
+left: 251px;
+top: 3161px;
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+
+color: #000000;
+}
+    .desk{
+        position: absolute;
+        width: 492px;
+        height: 342px;
+        left: 756px;
+        top: 3032px;
+        border-radius: 25px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+.square7{
+    position: absolute;
+width: 369px;
+height: 78px;
+left: 832px;
+top: 3146px;
+
+background: rgba(255, 255, 255, 0.4);
+border-radius: 30px;
+
+}
+.hde{
+    position: absolute;
+width: 278px;
+height: 71px;
+left: 878px;
+top: 3161px;
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+
+color: #000000;
+
+}
+.homef{
+    position: absolute;
+width: 259px;
+height: 314px;
+left: 18px;
+top: 3350px;
+
+}
+
+.squaref{
+    position: absolute;
+width: 100vw;
+height: 70vh;
+bottom: 0;
+left: 0px;
+top: 3400px;
+
+background: #D9D9D9;
+}
+.sl{
+    position: absolute;
+    width: 640px;
+    height: 124px;
+    left: 62px;
+    top: 3587px;
+    
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    
+    color: #000000;
+    
+}
+.st{
+    position: absolute;
+width: 538px;
+height: 124px;
+left: 62px;
+top: 3634px;
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+
+color: #000000;
+
+
+
+}
+.menu{
+    position: absolute;
+    width: 640px;
+    height: 123px;
+    left: 778px;
+    top: 3587px;
+    
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    
+    color: #000000;
+    
+}
+.cn{
+    position: absolute;
+width: 640px;
+height: 210px;
+left: 1041px;
+top: 3587px;
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 30px;
+
+color: #000000;
+
+
+
+}
+.imad{
+    position: absolute;
+width: 51px;
+height: 47px;
+left: 986px;
+top: 3609px;
+
+}
+.imat{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 984px;
+top: 3640px;
+
+}
+.imae{
+    position: absolute;
+width: 58px;
+height: 60px;
+left: 981px;
+top: 3666px;
+
+}
+.imaf{
+    position: absolute;
+width: 56px;
+height: 56px;
+left: 983px;
+top: 3697px;
+}
+.imai{
+    position: absolute;
+width: 50px;
+height: 50px;
+left: 986px;
+top: 3733px;
+}
+.cop{
+    position: absolute;
+width: 351px;
+height: 32px;
+left: 623px;
+top: 3858px;
+
+font-family: 'Prata';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+
+color: #000000;
+
+}
+/* Media queries  */
+@media (max-width: 600px) {
+    nav{
+        position: absolute;
+        right: 15px;
+        width: 20%;
+        height: 100px;
+        top: 10px;
+        background: #F5F5F5;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+        }
+        
+    pre{
+        position: absolute;
+    
+    left: -70px;
+    top: 315px;
+    
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    
+    color: #000000;
+    }
+
+    input[type=text] {
+        position: absolute;
+        width: 85%;
+        left: 40px;
+        top: 1000 px;
+        box-sizing: border-box;
+        border: 1px solid rgb(10, 10, 10);
+        border-radius: 35px;
+        font-size: 10px;
+        font-family: 'Prata';
+        font-style: normal;
+        background-color: white;
+        background: url(./image/téléchargement__1_-removebg-preview.png);
+        background-size: 3%;
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+       margin:auto;
+       display:block;}
+
+       .tit{
+        position: relative;
+    width: 558px;
+    height: 299px;
+    left: 160px;
+    top: 200px;
+    
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 95px;
+    color: #000000;
+    }
+    
+       
+   
+    nav
+         ul{ display: block;
+             margin-inline: auto; 
+             width: 100%; 
+             text-align: center;
+              line-height: 1;
+               font: 500; }
+
+         
+         .room{
+            position: absolute;
+            width: 238px;
+            height: 105px;
+            flex-direction: column;
+            display: flex;
+            flex-wrap: wrap;  
+         }
+         .cui{
+            position: absolute;
+            width: 238px;
+            height: 105px;
+            flex-direction: column;
+            display: flex;
+            flex-wrap: wrap;
+         }
+         .salon{position: absolute;
+            width: 238px;
+            height: 105px;            
+            flex-direction: column;
+            display: flex;
+            flex-wrap: wrap;}
+            .bath{position: absolute;
+                width: 238px;
+                height: 105px;
+                flex-direction: column;
+                display: flex;
+                flex-wrap: wrap;
+
+            }
+             .bib{ position: absolute;
+                width: 238px;
+                height: 105px;
+                left: 60px;
+                top: 722px;
+                flex-direction: column;
+                display: flex;
+                flex-wrap: wrap;  
+             }
+             .child{position: absolute;
+                width: 238px;
+                height: 105px;
+                left: 60px;
+                top: 846px;
+                flex-direction: column;
+                display: flex;
+                flex-wrap: wrap;   
+             }
+             .desk{position: absolute;
+                width: 238px;
+                height: 105px;               
+                flex-direction: column;
+                display: flex;
+                flex-wrap: wrap;
+             }
+             .homef{
+                position: absolute;
+                width: 53px;
+                height: 62px;
+                left: 7px;
+                top: 3350px;
+
+            
+            }
+            
+            .squaref{
+                position: absolute;
+                width: 360px;
+                height: 161px;
+                left: 0px;
+                top: 3900px;
+
+                background: #D9D9D9;
+            }
+            .sl{
+                position: absolute;
+                width: 138px;
+                height: 54px;
+                left: 5px;
+                top: 3587px;
+
+                font-family: 'Prata';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 14px;
+
+                color: #000000;
+                
+            }
+            .st{
+                    position: absolute;
+                    width: 116px;
+                    height: 53px;
+                    left: 5px;
+                    top: 3634px;
+
+                    font-family: 'Prata';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 7px;
+                    line-height: 9px;
+
+                    color: #000000;
+            
+            
+            
+            }
+            .menu{
+                position: absolute;
+                width: 140px;
+                height: 53px;
+                left: 144px;
+                top: 3587px;
+
+                font-family: 'Prata';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 7px;
+                line-height: 9px;
+
+                color: #000000;
+                
+            }
+            .cn{
+                position: absolute;
+                width: 139px;
+                height: 77px;
+                left: 224px;
+                top: 3587px;
+                
+                font-family: 'Prata';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 7px;
+                line-height: 9px;
+                
+                color: #000000;
+            
+            
+            
+            }
+            .imad{
+                position: absolute;
+            width: 51px;
+            height: 47px;
+            left: 986px;
+            top: 3609px;
+            
+            }
+            .imat{
+                position: absolute;
+            width: 50px;
+            height: 50px;
+            left: 984px;
+            top: 3640px;
+            
+            }
+            .imae{
+                position: absolute;
+            width: 58px;
+            height: 60px;
+            left: 981px;
+            top: 3666px;
+            
+            }
+            .imaf{
+                position: absolute;
+            width: 56px;
+            height: 56px;
+            left: 983px;
+            top: 3697px;
+            }
+            .imai{
+                position: absolute;
+            width: 50px;
+            height: 50px;
+            left: 986px;
+            top: 3733px;
+            }
+            .cop{
+                position: absolute;
+                width: 104px;
+                height: 18px;
+                left: 132px;
+                top: 3858px;
+
+                font-family: 'Prata';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 7px;
+                line-height: 9px;
+
+                color: #000000;
+
+
+            }
+        
+
